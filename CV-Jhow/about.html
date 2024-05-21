@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sobre mim</title>
+</head>
+<body>
+
+    <!--Navegação do site-->
+    <header class="header__navigation">
+
+        <nav class="navigation">
+            <ul class="navigation__pattern">
+            <li class="navigation__sons"><a href="index.html">Inicio</a></li>
+            <li class="navigation__sons"><a href="about.html">Sobre</a></li>
+            <li class="navigation__sons"><a href="#softwares__and__skills">Skills</a></li>
+            <li class="navigation__sons"><a href="#social__medias">Contato</a></li>
+        </ul>
+        </nav>
+
+   </header>
+
+   <!--Sobre mim-->
+    <div class="main__content__about">
+        <h2>Eu sou Jhonatan dos Santos Rodrigues, estudante de Back-End.</h2>
+        <p class="paragraph__about">Olá, meu nome é Jhonatan e tenho 25 anos. Moro em Guarujá - SP e atualmente trabalho como professor de inglês.
+            Mas estou em transição para a área de desenvolvimento de software e com foco maior no Back-End na linguagem Java. <br>
+            Sou torcedor do santos, casado, nas horas vagas gosto de me divertir jogando vídeo game e sou um completo viciado em café.</p>
+        </div>
+
+         <!--Imagem de perfil-->
+         <div class="main__imagem__about">
+            <img src="assets/profile-picture.jgp.jpg" alt="Foto de perfil de jhonatan sorrindo com uma blusa azul escuro" >
+        </div>
+    <!--Sessão de Formação educacional e idiomas-->
+    <section class="softwares__and__skills" id="softwares__and__skills">
+        <h4>Certificações</h4>
+    <div class="main__softwares">   
+        <img src="assets/JAVA-OOjpeg.jpeg" alt="Certificado de JAVA entendendo objetos" width="30%">
+        <img src="assets/JAVA-excecoes.jpeg" alt="Certificado de JAVA aprendendo a criar, lançar e controlar exceções" width="30%">
+    </div>
+
+    <h4>Skills</h4>
+    <div class="main__skills">
+        <img src="assets/java-logo.svg" alt="Logo JAVA" width="10%">
+        <img src="assets/git-svgrepo.svg" alt="Logo Git" width="10%">
+        <img src="assets/sql-logo.svg" alt="Logo SQL" width="10%">
+        <img src="assets/mysql-svgrepo.svg" alt="Logo MySQL" width="10%">
+        <img src="assets/postgresql.svg" alt="Logo PostgreSQL" width="10%">
+        <img src="assets/springio.svg" alt="Logo Spring" width="10%">
+        <img src="assets/docker.svg" alt="Logo Docker" width="10%">
+        <img src="assets/mongodb.svg" alt="Logo Mongo DB" width="10%">
+    </div>
+
+    <img src="assets/seperator.svg" alt="imagem utilizada para dividir sessões" class="seperator">
+</section>
+
+<!--Sessão de contato-->
+<div class="contact__section"> 
+    <form action="#">
+        <label for="f-name">Nome</label>
+        <input type="text" name="firstname" id="fname" placeholder="Seu nome...">
+
+        <label for="l-name">Sobrenome   </label>
+        <input type="text" name="lastname" id="lname" placeholder="Seu sobrenome... ">
+
+        <label for="subject">Fale comigo</label>
+        <textarea name="subject" id="subject" placeholder="Escreva algo..." style="height: 500px; width: 910px; font-size: 18px; color: black;" ></textarea>
+
+        <input type="submit" value="Enviar" class="button__enviar"> 
+
+    </form>
+</div>
+    <!--Sessão rodape-->
+    <footer>
+        <div class="social__medias" id="social__medias">
+            <a href="https://www.instagram.com/jhonatann.rodriguess/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/jhonatan-rodrigues-dev/" target="_blank">Linkedin</a>
+            <a href="https://github.com/Jhonatan-Rodrigues" target="_blank">Github</a>
+        </div>
+   </footer>
+</body>
+</html>
